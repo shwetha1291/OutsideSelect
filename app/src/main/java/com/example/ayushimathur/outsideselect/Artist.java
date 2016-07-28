@@ -9,14 +9,14 @@ import java.text.SimpleDateFormat;
 */
 
 public class Artist implements Comparable<Artist> {
-    private long id;
+    private Integer id;
     private String name;
     private String location;
     private String starttime;
     private String endtime;
 
     public Artist(){}
-    public Artist(long id, String name, String location, String starttime, String endtime) {
+    public Artist(int id, String name, String starttime, String endtime,String location) {
         this.id = id;
         this.name = name;
         this.location = location;
@@ -56,11 +56,11 @@ public class Artist implements Comparable<Artist> {
         this.endtime = endtime;
     }
 
-    public long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

@@ -21,7 +21,7 @@ public class CSVFile {
             String csvLine;
             while ((csvLine = reader.readLine()) != null) {
                 String[] row = csvLine.split(",");
-                Artist a = new Artist( Long.parseLong(row[0], 10),row[1],row[2],row[3],row[4]);
+                Artist a = new Artist( Integer.parseInt(row[0], 10),row[1],row[2],row[3],row[4]);
                 resultList.add(a);
             }
         }

@@ -19,13 +19,7 @@
         android:layout_centerHorizontal="true"/>
 
 
-    <LinearLayout
-        android:paddingTop="10dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:id="@+id/artistphotolayout"
-        >
+
 
     <ImageView
         android:layout_marginTop="30dp"
@@ -35,7 +29,6 @@
         android:src="@drawable/artist_photo"
         />
 
-    </LinearLayout>
 
 
 <RelativeLayout
@@ -43,13 +36,9 @@
     android:layout_centerHorizontal="true"
     android:layout_width="200dp"
     android:layout_height="wrap_content"
-    android:layout_below="@+id/artistphotolayout"
+    android:layout_below="@+id/artistphoto"
     android:id="@+id/playgrp">
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:src="@drawable/rewind_left_btn"
-        android:layout_alignParentLeft="true"/>
+
     <ImageView
         android:layout_height="wrap_content"
         android:layout_width="120dp"
@@ -59,12 +48,22 @@
         android:orientation="vertical"
         />
     <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:src="@drawable/pause_btn"
+        android:id="@+id/btnpause"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        />
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="70dp"
-        android:src="@drawable/rewind_right_btn"
+        android:src="@drawable/rewind_left_btn"
         android:id="@+id/btnskip"
         android:layout_alignParentRight="true"
         />
+
 </RelativeLayout>
 
 
@@ -77,13 +76,6 @@
         android:layout_marginLeft="56dp"
         >
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="100dp"
-            android:src="@drawable/cross"
-            android:layout_below="@+id/cross"
-            >
-        </ImageView>
 
     </LinearLayout>
 
@@ -92,8 +84,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/playgrp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="56dp"
+        android:layout_centerInParent="true"
         android:id="@+id/heartlayout">
 
 
@@ -101,6 +92,16 @@
             android:layout_width="60dp"
             android:layout_height="100dp"
             android:src="@drawable/heart_ic"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnheartAfter"
+            />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/heart_white"
             android:id="@+id/btnheart"
             />
 

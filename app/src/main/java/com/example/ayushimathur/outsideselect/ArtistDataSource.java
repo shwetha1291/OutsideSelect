@@ -77,11 +77,11 @@ public class ArtistDataSource {
 
     private Artist cursorToArtist(Cursor cursor) {
         Artist artist = new Artist();
-        artist.setId(cursor.getLong(0));
+        artist.setId(cursor.getInt(0));
         artist.setName(cursor.getString(1));
-        artist.setLocation(cursor.getString(2));
-        artist.setStarttime(cursor.getString(3));
-        artist.setEndtime(cursor.getString(4));
+        artist.setLocation(cursor.getString(4));
+        artist.setStarttime(cursor.getString(2));
+        artist.setEndtime(cursor.getString(3));
         return artist;
     }
 }

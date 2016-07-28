@@ -1,6 +1,5 @@
 package com.example.ayushimathur.outsideselect;
 
-import android.content.ClipData;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -9,11 +8,8 @@ import android.net.Uri;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.text.Layout;
 import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -37,7 +33,6 @@ import java.util.ArrayList;
 
 public class SelectArtist extends AppCompatActivity {
 
-    ArrayList<String> songlist;
     TextView artname;
     public static ArrayList<Artist> lovedArtists = new ArrayList<Artist>();
     //public static ArrayList<Artist> dislikedArtist = new ArrayList<Artist>();
@@ -58,35 +53,19 @@ public class SelectArtist extends AppCompatActivity {
 
 
         final ImageView btnplay = (ImageView) findViewById(R.id.btnplay);
-        final LinearLayout heart = (LinearLayout) findViewById(R.id.artistphotolayout);
-        final LinearLayout photoIcon = (LinearLayout) findViewById(R.id.artistphotolayout);
-        heart.setOnDragListener();
-
 
         ImageView btnskip = (ImageView) findViewById(R.id.btnskip);
 
+        final ImageView btnpause = (ImageView) findViewById(R.id.btnpause);
+        btnpause.setVisibility(View.GONE);
         final ImageView btnheart = (ImageView) findViewById(R.id.btnheart);
+        final ImageView btnheartAfter = (ImageView) findViewById(R.id.btnheartAfter);
+        btnheartAfter.setVisibility(View.GONE);
+
 
         InputStream inputStream = getResources().openRawResource(R.raw.artistdata);
         CSVFile csvFile = new CSVFile(inputStream);
         final ArrayList<Artist> artistList = new ArrayList<Artist>(csvFile.read());
-
-        songlist = new ArrayList<>();
-
-        //iterate through list of files in raw
-        String path = Environment.getExternalStorageDirectory().toString() + "/raw";
-        String filepath;
-        Log.d("Files", "Path: " + path);
-        File f = new File(path);
-        File file[] = f.listFiles();
-        Log.d("Files", "Size: " + file.length);
-        for (int i = 0; i < file.length; i++) {
-            if (file[i].getName().contains("song")) {
-                Log.d("Files", "FileName:" + file[i].getName());
-                filepath = path + "/" + file[i].getName();
-                songlist.add(filepath);
-            }
-        }
 
 
         //   Collection
@@ -96,6 +75,8 @@ public class SelectArtist extends AppCompatActivity {
                 if (!lovedArtists.contains(artistList.get(songplaying))) {
                     lovedArtists.add(artistList.get(songplaying));
                 }
+                btnheartAfter.setVisibility(View.VISIBLE);
+                btnheart.setVisibility(View.GONE);
             }
         });
 
@@ -106,8 +87,11 @@ public class SelectArtist extends AppCompatActivity {
                     numTaps = 0;
                     player.stop();
                     btnplay.callOnClick();
+                    btnheart.setVisibility(View.VISIBLE);
+                    btnheartAfter.setVisibility(View.GONE);
                     songplaying++;
-                } else {
+                }
+                else {
                     Intent intent = new Intent(view.getContext(), clashCheck.class);
                     player.release();
                     startActivity(intent);
@@ -118,46 +102,94 @@ public class SelectArtist extends AppCompatActivity {
         });
 
         btnplay.setOnClickListener(new View.OnClickListener() {
-
             @Override
             public void onClick(View view) {
-                String imgName;
+                String imgName,songName;
+                int id1,id2;
                 numTaps++;
                 if (numTaps < 2) {
-                    player = new MediaPlayer();
-                    try {
-                        player.setDataSource(songlist.get(songplaying));
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+                    songName = "song" + Integer.toString(songplaying+1);
+                    Log.d("song name",songName);
+                    id1 = getResources().getIdentifier(songName, "raw", getPackageName());
+                    Log.d("resourcessss",Integer.toString(id1));
+                    player = MediaPlayer.create(SelectArtist.this, id1);
+
                     Artist a = artistList.get(songplaying);
                     artname.setText(a.getName());
                     ImageView imgv = (ImageView) findViewById(R.id.artistphoto);
 
 
-                    imgName = "img" + songplaying;
-                    int id = getResources().getIdentifier(imgName, "minmap", getPackageName());
-                    imgv.setImageResource(id);
-
+                    imgName = "img" +Integer.toString(songplaying+1) ;
+                    id2 =getResources().getIdentifier(imgName, "drawable", getPackageName());
+                    imgv.setImageResource(id2);
 
                     imgv.setOnTouchListener(new MyTouchListener());
 
-
                     player.setLooping(true);
                     player.start();
-                    //conver to pause
+
+                    btnpause.setVisibility(View.VISIBLE);
+                    btnplay.setVisibility(View.GONE);
                 }
                 if (numTaps % 2 == 0) {
                     player.pause();
+                    btnpause.setVisibility(View.GONE);
+                    btnplay.setVisibility(View.VISIBLE);
                     //cont to start
                 }
                 if (numTaps % 2 != 0) {
                     player.start();
+                    btnpause.setVisibility(View.VISIBLE);
+                    btnplay.setVisibility(View.GONE);
                     //convert to start
                 }
             }
         });
 
+        btnpause.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String imgName,songName;
+                int id1,id2;
+                numTaps++;
+                if (numTaps < 2) {
+                    songName = "song" + Integer.toString(songplaying+1);
+                    Log.d("song name",songName);
+                    id1 = getResources().getIdentifier(songName, "raw", getPackageName());
+                    Log.d("resourcessss",Integer.toString(id1));
+                    player = MediaPlayer.create(SelectArtist.this, id1);
+
+                    Artist a = artistList.get(songplaying);
+                    artname.setText(a.getName());
+                    ImageView imgv = (ImageView) findViewById(R.id.artistphoto);
+
+
+                    imgName = "img" + Integer.toString(songplaying+1) ;
+                    id2 =getResources().getIdentifier(imgName, "drawable", getPackageName());
+                    imgv.setImageResource(id2);
+
+                    imgv.setOnTouchListener(new MyTouchListener());
+
+                    player.setLooping(true);
+                    player.start();
+
+                    btnpause.setVisibility(View.VISIBLE);
+                    btnplay.setVisibility(View.GONE);
+                }
+                if (numTaps % 2 == 0) {
+                    player.pause();
+                    btnpause.setVisibility(View.GONE);
+                    btnplay.setVisibility(View.VISIBLE);
+                    //cont to start
+                }
+                if (numTaps % 2 != 0) {
+                    player.start();
+                    btnpause.setVisibility(View.VISIBLE);
+                    btnplay.setVisibility(View.GONE);
+                    //convert to start
+                }
+            }
+        });
 
         ImageView img1 = (ImageView) findViewById(R.id.artistphoto);
         Bitmap bm = BitmapFactory.decodeResource(getResources(),

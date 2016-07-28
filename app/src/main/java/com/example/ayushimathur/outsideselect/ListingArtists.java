@@ -36,7 +36,7 @@ public class ListingArtists extends AppCompatActivity {
     ViewPageAdapter adapter;
     SlidingTabLayout tabs;
     CharSequence Titles[]={"FRIDAY","SATURDAY","SUNDAY"};
-    int Numboftabs =2;
+    int Numboftabs =3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
