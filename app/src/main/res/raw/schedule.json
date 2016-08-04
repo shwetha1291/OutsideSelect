@@ -1,0 +1,745 @@
+
+[
+ {
+ "artist" : "Down and outlaws",
+ "big_image_url" : "1",
+ "small_image_url" : "1s",
+ "song_url" : "http://a614.phobos.apple.com/us/r30/Music5/v4/c2/57/27/c2572718-0a6c-cf8e-6df9-96a29acf423e/mzaf_2153139450185170644.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 12:00",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Whitney",
+ "big_image_url" : "2",
+ "small_image_url" : "2s",
+ "song_url" : "http://a732.phobos.apple.com/us/r1000/147/Music69/v4/ea/c6/99/eac699ca-8350-dce6-518f-050b8b480590/mzaf_628762576556948794.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 12:00",
+ "duration_minutes" : 45,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Marian Hill",
+ "big_image_url" : "3",
+ "small_image_url" : "3s",
+ "song_url" : "http://a1328.phobos.apple.com/us/r1000/031/Music3/v4/a0/bb/71/a0bb7184-04af-554c-6f29-cfa42dbf4fc3/mzaf_8236943830352898531.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 12:45",
+ "duration_minutes" : 45,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Lany",
+ "big_image_url" : "4",
+ "small_image_url" : "4s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/be/0c/bb/be0cbbff-c599-abc7-799a-2599ab1704a9/mzaf_817430138688147289.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 12:45",
+ "duration_minutes" : 50,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Caveman",
+ "big_image_url" : "5",
+ "small_image_url" : "5s",
+ "song_url" : "http://a1020.phobos.apple.com/us/r30/Music2/v4/e3/53/ee/e353eee6-47bb-6aef-3079-298689dcd5a2/mzaf_7551506261155674014.aac.m4a",
+ "start_time" : "2016-08-05 13:15",
+ "duration_minutes" : 45,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Moon Taxi",
+ "big_image_url" : "6",
+ "small_image_url" : "6s",
+ "song_url" : "http://a1703.phobos.apple.com/us/r1000/031/Music/v4/26/73/7c/26737ce9-f7f4-c1c1-f5a2-2780d618a320/mzaf_6944407102081172404.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 13:30",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Ra Ra Riot",
+ "big_image_url" : "7",
+ "small_image_url" : "7s",
+ "song_url" : "http://a302.phobos.apple.com/us/r1000/059/Music6/v4/f7/eb/f6/f7ebf6e9-6e40-e909-f372-e436dc794609/mzaf_537626752222713255.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 14:05",
+ "duration_minutes" : 50,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Jidenna",
+ "big_image_url" : "8",
+ "small_image_url" : "8s",
+ "song_url" : "http://a231.phobos.apple.com/us/r1000/138/Music69/v4/fa/61/8f/fa618fab-6901-7410-7216-6d44e5925d42/mzaf_6303994980110954657.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 14:10",
+ "duration_minutes" : 45,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Wet",
+ "big_image_url" : "9",
+ "small_image_url" : "9s",
+ "song_url" : "http://a1886.phobos.apple.com/us/r1000/055/Music2/v4/14/91/cc/1491cce4-f484-9d99-ec3a-3b11b48b77ca/mzaf_4083628396362388109.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 14:30",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Vulfpeck",
+ "big_image_url" : "10",
+ "small_image_url" : "10s",
+ "song_url" : "http://a47.phobos.apple.com/us/r30/Music7/v4/65/0a/49/650a49d4-9160-11c7-982a-f3c5ef62f933/mzaf_7910918629609324482.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 14:55",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "St. Lucia",
+ "big_image_url" : "11",
+ "small_image_url" : "11s",
+ "song_url" : "http://a85.phobos.apple.com/us/r1000/177/Music69/v4/ef/0a/e6/ef0ae67c-33a6-f249-5e48-fb99b685202d/mzaf_7401145367718835248.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 15:25",
+ "duration_minutes" : 50,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Poliça",
+ "big_image_url" : "12",
+ "small_image_url" : "12s",
+ "song_url" : "http://a822.phobos.apple.com/us/r30/Music2/v4/ff/1f/8b/ff1f8bfe-b5cb-69dd-b052-040ea261ce01/mzaf_8128418151684897032.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 15:40",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Foals",
+ "big_image_url" : "13",
+ "small_image_url" : "13s",
+ "song_url" : "http://a1751.phobos.apple.com/us/r1000/164/Music7/v4/4b/be/77/4bbe77ca-3760-2245-8426-8afa668b3e60/mzaf_4878772535211129451.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 15:50",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Tokimonsta",
+ "big_image_url" : "14",
+ "small_image_url" : "14s",
+ "song_url" : "http://a827.phobos.apple.com/us/r1000/104/Music2/v4/6f/b4/0f/6fb40f2a-7e57-22c9-151e-7b6622541003/mzaf_6562475499612378456.aac.m4a",
+ "start_time" : "2016-08-05 16:30",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Miike Snow",
+ "big_image_url" : "15",
+ "small_image_url" : "15s",
+ "song_url" : "http://a1526.phobos.apple.com/us/r1000/151/Music49/v4/f3/6d/02/f36d0202-3f48-c39b-25dd-4d7b2180a910/mzaf_2590864690661287076.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 16:45",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "The Claypool Lennon Delirium",
+ "big_image_url" : "16",
+ "small_image_url" : "16s",
+ "song_url" : "http://a746.phobos.apple.com/us/r1000/149/Music49/v4/e0/3d/48/e03d4801-f213-b1ce-0a8d-52f71ed10fca/mzaf_7587862098498978105.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 17:10",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Thomas Jack",
+ "big_image_url" : "17",
+ "small_image_url" : "17s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview60/v4/e2/fd/9c/e2fd9c83-853f-cf0b-e86b-0d461449a743/mzaf_772649715865846364.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 17:15",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Lapsley",
+ "big_image_url" : "18",
+ "small_image_url" : "18s",
+ "song_url" : "http://a441.phobos.apple.com/us/r1000/003/Music3/v4/68/54/b4/6854b498-f399-3bac-705f-7c6406dfc9f6/mzaf_530335101741501872.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 18:05",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Duran Duran",
+ "big_image_url" : "19",
+ "small_image_url" : "19s",
+ "song_url" : "http://a1563.phobos.apple.com/us/r1000/168/Music/6b/b0/29/mzm.jcpcvglc.aac.p.m4a",
+ "start_time" : "2016-08-05 18:15",
+ "duration_minutes" : 70,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Nathaniel Rateliff & the Night Sweats",
+ "big_image_url" : "20",
+ "small_image_url" : "20s",
+ "song_url" : "http://a1173.phobos.apple.com/us/r1000/180/Music1/v4/ef/7b/c7/ef7bc700-2bb0-cc8b-0a8c-1815e5cc3250/mzaf_6092270085321111352.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 18:30",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Grimes",
+ "big_image_url" : "21",
+ "small_image_url" : "21s",
+ "song_url" : "http://a343.phobos.apple.com/us/r1000/132/Music69/v4/d2/b3/1d/d2b31d56-807a-4e20-0b8a-8b721b2f4663/mzaf_1555822020963605861.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 18:50",
+ "duration_minutes" : 60,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Hiatus Kaiyote",
+ "big_image_url" : "22",
+ "small_image_url" : "22s",
+ "song_url" : "http://a145.phobos.apple.com/us/r1000/153/Music3/v4/bd/3b/c2/bd3bc23b-caf9-e643-100c-ae634a1ddc27/mzaf_8891406659972168494.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 19:50",
+ "duration_minutes" : 45,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Beach House",
+ "big_image_url" : "23",
+ "small_image_url" : "23s",
+ "song_url" : "http://a1616.phobos.apple.com/us/r1000/083/Music2/v4/57/f5/3b/57f53bdc-80dc-031e-c22d-101de36356e0/mzaf_4745508573888637591.m4a",
+ "start_time" : "2016-08-05 19:50",
+ "duration_minutes" : 70,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "LCD SoundSystem ",
+ "big_image_url" : "24",
+ "small_image_url" : "24s",
+ "song_url" : "http://a854.phobos.apple.com/us/r1000/008/Music4/v4/57/b7/70/57b77088-9c1a-4c6a-e3d4-1eb152346b37/mzaf_6841766460775314220.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 20:10",
+ "duration_minutes" : 105,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "J.Cole",
+ "big_image_url" : "25",
+ "small_image_url" : "25s",
+ "song_url" : "http://a792.phobos.apple.com/us/r1000/126/Music1/v4/07/6a/b7/076ab77c-6e19-2432-0a71-2772d8aed048/mzaf_8254815173894779377.plus.aac.p.m4a",
+ "start_time" : "2016-08-05 20:40",
+ "duration_minutes" : 75,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Julien Baker",
+ "big_image_url" : "26",
+ "small_image_url" : "26s",
+ "song_url" : "http://a1164.phobos.apple.com/us/r30/Music7/v4/3c/e9/90/3ce99036-c033-9eb2-8a0b-eeb7f1971ab7/mzaf_1450856591206883788.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 12:00",
+ "duration_minutes" : 45,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Methyl Ethel",
+ "big_image_url" : "27",
+ "small_image_url" : "27s",
+ "song_url" : "http://a634.phobos.apple.com/us/r1000/168/Music69/v4/b9/3d/c8/b93dc8b5-20a2-59fc-7841-6819ed1c90a2/mzaf_3604687610590518674.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 12:00",
+ "duration_minutes" : 45,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Fantastic Negrito",
+ "big_image_url" : "28",
+ "small_image_url" : "28s",
+ "song_url" : "http://a550.phobos.apple.com/us/r1000/122/Music69/v4/bb/dc/75/bbdc7531-f994-7f36-953f-ce5a4b332205/mzaf_360208107385334355.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 12:40",
+ "duration_minutes" : 45,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Lewis Del Mar",
+ "big_image_url" : "29",
+ "small_image_url" : "29s",
+ "song_url" : "http://a1560.phobos.apple.com/us/r1000/142/Music49/v4/2c/49/4f/2c494f7e-fa28-d267-6aa9-c560f071f970/mzaf_8719014793794885429.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 12:45",
+ "duration_minutes" : 45,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Rogue Wave",
+ "big_image_url" : "30",
+ "small_image_url" : "30s",
+ "song_url" : "http://a1589.phobos.apple.com/us/r1000/070/Music/v4/2e/31/c8/2e31c85f-7f4b-a781-e06d-b0e2ee425133/mzaf_2828858388514565619.m4a",
+ "start_time" : "2016-08-06 13:15",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Declan Mckenna",
+ "big_image_url" : "31",
+ "small_image_url" : "31s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview30/v4/d2/f2/ec/d2f2ecd0-1f59-03f5-e2ac-514f30673cd0/mzaf_8750599004790994448.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 13:25",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "The Wombats",
+ "big_image_url" : "32",
+ "small_image_url" : "32s",
+ "song_url" : "http://a1216.phobos.apple.com/us/r1000/103/Music/14/55/72/mzm.uycjwxqv.aac.p.m4a",
+ "start_time" : "2016-08-06 14:00",
+ "duration_minutes" : 50,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "The Knocks",
+ "big_image_url" : "33",
+ "small_image_url" : "33s",
+ "song_url" : "http://a898.phobos.apple.com/us/r1000/137/Music49/v4/19/4a/ff/194aff35-b29e-83a8-8722-47f64d17eff6/mzaf_2646419480986528715.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 12:05",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Ibeyi",
+ "big_image_url" : "34",
+ "small_image_url" : "34s",
+ "song_url" : "http://a1976.phobos.apple.com/us/r1000/022/Music7/v4/7c/d4/b9/7cd4b9a9-a1d8-7989-653a-5a8a32899de0/mzaf_4121235539473281475.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 14:35",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Kevin Morby",
+ "big_image_url" : "35",
+ "small_image_url" : "35s",
+ "song_url" : "http://a1447.phobos.apple.com/us/r1000/155/Music49/v4/5e/98/c2/5e98c2e6-49e5-484b-f3cb-92c5ec3dfc37/mzaf_3901367212274212305.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 14:55",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Years & Years",
+ "big_image_url" : "36",
+ "small_image_url" : "36s",
+ "song_url" : "http://a1323.phobos.apple.com/us/r1000/136/Music49/v4/52/f4/41/52f44114-96e4-c481-4f39-34d90a471b7e/mzaf_6273568994095661961.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 14:00",
+ "duration_minutes" : 50,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Vince Staples",
+ "big_image_url" : "37",
+ "small_image_url" : "37s",
+ "song_url" : "http://a1531.phobos.apple.com/us/r1000/178/Music7/v4/cc/3c/1d/cc3c1d56-0b85-a8d5-7f88-5278d970a4a8/mzaf_3146608535029752038.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 15:40",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Lord Huron",
+ "big_image_url" : "38",
+ "small_image_url" : "38s",
+ "song_url" : "http://a313.phobos.apple.com/us/r1000/129/Music3/v4/4d/63/7c/4d637c5f-ae97-6a6a-0a73-33dbb0d25afd/mzaf_8035556692080457364.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 15:55",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Con Brio",
+ "big_image_url" : "39",
+ "small_image_url" : "39s",
+ "song_url" : "http://a1585.phobos.apple.com/us/r30/Music3/v4/54/07/45/540745c3-6757-c620-32b7-46143ca5b338/mzaf_1638993783873554997.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 16:30",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Big Grams",
+ "big_image_url" : "40",
+ "small_image_url" : "40s",
+ "song_url" : "http://a1685.phobos.apple.com/us/r1000/139/Music69/v4/56/22/ee/5622ee2e-234b-f8bc-0aac-16105f611cd0/mzaf_535790111645817848.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 16:40",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "The Last Shadow Puppets",
+ "big_image_url" : "41",
+ "small_image_url" : "41s",
+ "song_url" : "http://a1457.phobos.apple.com/us/r1000/156/Music49/v4/21/5e/0a/215e0a73-e256-946a-0a61-d5339bee9ba6/mzaf_9192250092987590955.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 17:15",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Jauz",
+ "big_image_url" : "42",
+ "small_image_url" : "42s",
+ "song_url" : "http://a1853.phobos.apple.com/us/r1000/041/Music3/v4/c4/a0/1d/c4a01dd0-7a6c-6123-d2dd-b1af9eda57aa/mzaf_7592082976938488963.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 17:15",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Peaches",
+ "big_image_url" : "43",
+ "small_image_url" : "43s",
+ "song_url" : "http://a1808.phobos.apple.com/us/r1000/094/Music2/v4/87/c7/70/87c77070-5873-79d4-823f-f2e1767661c7/mzaf_2541600454279126663.aac.m4a",
+ "start_time" : "2016-08-06 18:05",
+ "duration_minutes" : 45,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Air",
+ "big_image_url" : "44",
+ "small_image_url" : "44s",
+ "song_url" : "http://a1453.phobos.apple.com/us/r1000/009/Music/v4/b6/5a/c7/b65ac7c3-1f8b-46c5-0705-6812d576392b/mzaf_4432728800395913967.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 18:10",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Sufjan Stevens",
+ "big_image_url" : "45",
+ "small_image_url" : "45s",
+ "song_url" : "http://a58.phobos.apple.com/us/r1000/095/Music/v4/2a/1c/c4/2a1cc4bd-963a-de3f-039c-94d215d4b9cf/mzaf_4591794373882857788.aac.m4a",
+ "start_time" : "2016-08-06 18:35",
+ "duration_minutes" : 70,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Halsey",
+ "big_image_url" : "46",
+ "small_image_url" : "46s",
+ "song_url" : "http://a1445.phobos.apple.com/us/r1000/002/Music7/v4/3e/b9/76/3eb976c4-7569-f9f1-9c5d-7ce118ab6da3/mzaf_4418403827336814317.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 18:55",
+ "duration_minutes" : 60,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Anderson Paak & and the Free Nationals",
+ "big_image_url" : "47",
+ "small_image_url" : "47s",
+ "song_url" : "http://a989.phobos.apple.com/us/r30/Music7/v4/68/06/cd/6806cd6a-e2b6-ed71-d7fa-5e40d4c07251/mzaf_1285663827856135549.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 19:55",
+ "duration_minutes" : 45,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Radiohead",
+ "big_image_url" : "48",
+ "small_image_url" : "48s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/15/86/39/1586396e-a6fb-8cba-57a7-aeae5a4e4a44/mzaf_1550398466213326000.plus.aac.p.m4a",
+ "start_time" : "2016-08-06 19:55",
+ "duration_minutes" : 120,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Zedd",
+ "big_image_url" : "49",
+ "small_image_url" : "49s",
+ "song_url" : "http://a941.phobos.apple.com/us/r1000/090/Music/43/3a/f7/mzi.oazcabkj.aac.p.m4a",
+ "start_time" : "2016-08-06 20:40",
+ "duration_minutes" : 75,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ 
+ {
+ "artist" : "Kamasi Washington",
+ "big_image_url" : "50",
+ "small_image_url" : "50s",
+ "song_url" : "http://a1284.phobos.apple.com/us/r1000/138/Music1/v4/07/6f/83/076f8323-2479-cfda-9ec0-c8459f915e3e/mzaf_9088919057872031685.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 12:00",
+ "duration_minutes" : 45,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Heron Oblivion",
+ "big_image_url" : "51",
+ "small_image_url" : "51s",
+ "song_url" : "http://a146.phobos.apple.com/us/r1000/143/Music7/v4/dc/91/6f/dc916f35-200e-2a16-75d4-a2e97759899f/mzaf_2315456361031613889.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 12:00",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Frances",
+ "big_image_url" : "52",
+ "small_image_url" : "52s",
+ "song_url" : "http://a491.phobos.apple.com/us/r1000/155/Music49/v4/1d/a3/a4/1da3a417-5065-611e-29e8-1af7bbc3fe77/mzaf_295997222167640777.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 12:05",
+ "duration_minutes" : 45,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Natalia Lafourcade",
+ "big_image_url" : "53",
+ "small_image_url" : "53s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview60/v4/0d/05/8c/0d058c88-fe39-082c-6338-c45eca906219/mzaf_6037371927409317859.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 12:40",
+ "duration_minutes" : 40,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Oh Wonder",
+ "big_image_url" : "54",
+ "small_image_url" : "54s",
+ "song_url" : "http://a892.phobos.apple.com/us/r1000/132/Music7/v4/4a/e4/1d/4ae41dc6-4e3b-5b3d-e625-d8da6d7f03f1/mzaf_6864105054830901077.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 13:15",
+ "duration_minutes" : 45,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "The Oh Hellos",
+ "big_image_url" : "55",
+ "small_image_url" : "55s",
+ "song_url" : "http://a1893.phobos.apple.com/us/r1000/180/Music3/v4/c0/b0/a4/c0b0a480-10dc-21cc-dfcd-47d0025e59b7/mzaf_8995256599830935187.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 13:20",
+ "duration_minutes" : 45,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Cloves",
+ "big_image_url" : "56",
+ "small_image_url" : "56s",
+ "song_url" : "http://a635.phobos.apple.com/us/r1000/139/Music69/v4/68/e0/f0/68e0f02f-776d-4eb7-1391-637c6762e253/mzaf_2012714402132569128.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 13:20",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Snakehips",
+ "big_image_url" : "57",
+ "small_image_url" : "57s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview20/v4/fc/0c/fb/fc0cfbfd-7738-4e88-344d-615297d8bbf4/mzaf_2537750123856168042.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 14:00",
+ "duration_minutes" : 45,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Dr. Teeth And The Electric Mayhem",
+ "big_image_url" : "58",
+ "small_image_url" : "58s",
+ "song_url" : "http://audio.itunes.apple.com/apple-assets-us-std-000001/AudioPreview18/v4/28/36/d5/2836d583-ff5c-8f3c-002d-272e0707db4d/mzaf_2080177342949880129.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 14:30",
+ "duration_minutes" : 25,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Jack Garratt",
+ "big_image_url" : "59",
+ "small_image_url" : "59s",
+ "song_url" : "http://a1296.phobos.apple.com/us/r1000/158/Music6/v4/7a/6a/93/7a6a937a-d789-8d7b-3ec4-8768efa3964b/mzaf_4827671086063837551.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 14:35",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "HÆLOS",
+ "big_image_url" : "60",
+ "small_image_url" : "60s",
+ "song_url" : "http://a227.phobos.apple.com/us/r1000/149/Music49/v4/e6/a4/c1/e6a4c16a-a501-8d9e-37f9-c78e0bc6404c/mzaf_218612279657411950.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 14:45",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Kehlani",
+ "big_image_url" : "61",
+ "small_image_url" : "61s",
+ "song_url" : "http://a1862.phobos.apple.com/us/r1000/179/Music7/v4/33/2f/9a/332f9a53-21e2-6d41-751e-271e238efebe/mzaf_8292354362827180480.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 15:30",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Third Eye Blind",
+ "big_image_url" : "62",
+ "small_image_url" : "62s",
+ "song_url" : "http://a1732.phobos.apple.com/us/r1000/093/Music/26/dd/91/mzm.vphhmbiw.aac.p.m4a",
+ "start_time" : "2016-08-07 15:25",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Brandi Carlile",
+ "big_image_url" : "63",
+ "small_image_url" : "63s",
+ "song_url" : "http://a1588.phobos.apple.com/us/r1000/117/Music/47/48/4c/mzm.woujjdup.aac.p.m4a",
+ "start_time" : "2016-08-07 15:55",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "DIIV",
+ "big_image_url" : "64",
+ "small_image_url" : "64s",
+ "song_url" : "http://a363.phobos.apple.com/us/r1000/077/Music/v4/e5/98/51/e59851c6-f290-79bc-5961-9c5f8b0481ed/mzaf_2776489791380130683.aac.m4a",
+ "start_time" : "2016-08-07 16:20",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Chance the Rapper",
+ "big_image_url" : "65",
+ "small_image_url" : "65s",
+ "song_url" : "http://a476.phobos.apple.com/us/r30/Music69/v4/b6/69/e5/b669e52c-526e-ef6a-21bb-d187b26148f4/mzaf_7788454766977343475.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 16:55",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Jason Isbell",
+ "big_image_url" : "66",
+ "small_image_url" : "66s",
+ "song_url" : "http://a497.phobos.apple.com/us/r1000/161/Music7/v4/8c/51/41/8c51419e-5ad1-68a2-e296-68872c1ddfce/mzaf_8311820308314708635.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 17:15",
+ "duration_minutes" : 50,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "GRiZ",
+ "big_image_url" : "67",
+ "small_image_url" : "67s",
+ "song_url" : "http://a1909.phobos.apple.com/us/r30/Music6/v4/d1/a1/7e/d1a17e00-718c-4cd6-4c0e-7d8fa28684d7/mzaf_509858033052282450.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 17:05",
+ "duration_minutes" : 50,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Rufus Du Sol",
+ "big_image_url" : "68",
+ "small_image_url" : "68s",
+ "song_url" : "http://a809.phobos.apple.com/us/r30/Music49/v4/8c/95/d4/8c95d422-e68e-ec2b-953e-ca242fe974af/mzaf_8897529983262551882.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 17:55",
+ "duration_minutes" : 40,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Major Lazer",
+ "big_image_url" : "69",
+ "small_image_url" : "69s",
+ "song_url" : "http://a1252.phobos.apple.com/us/r30/Music1/v4/e7/f4/b1/e7f4b1e5-c99b-2120-582d-b75445b4b9ac/mzaf_389182104765039696.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 18:25",
+ "duration_minutes" : 60,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Ryan Adams and the Shining",
+ "big_image_url" : "70",
+ "small_image_url" : "70s",
+ "song_url" : "http://a917.phobos.apple.com/us/r1000/056/Music/v4/18/a1/ad/18a1ad6f-8e1a-a0a6-550b-7352d5075c27/mzaf_4727054306300994875.plus.aac.p.m4a",
+ "start_time" : "2016-08-07 18:35",
+ "duration_minutes" : 75,
+ "zone" : "Sutro",
+ "zone_color" : "0xFFCD44"
+ },
+ {
+ "artist" : "Miguel",
+ "big_image_url" : "71",
+ "small_image_url" : "71s",
+ "song_url" : "http://a1834.phobos.apple.com/us/r1000/066/Music/0b/ce/98/mzi.qobdtzoe.aac.p.m4a",
+ "start_time" : "2016-08-07 18:40",
+ "duration_minutes" : 60,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ },
+ {
+ "artist" : "Lettuce",
+ "big_image_url" : "72",
+ "small_image_url" : "72s",
+ "song_url" : "http://a423.phobos.apple.com/us/r30/Music/72/0d/ac/mzm.gocsuetf.aac.p.m4a",
+ "start_time" : "2016-08-07 19:40",
+ "duration_minutes" : 50,
+ "zone" : "Panhandle",
+ "zone_color" : "0x7EC654"
+ },
+ {
+ "artist" : "Lionel Richie",
+ "big_image_url" : "73",
+ "small_image_url" : "73s",
+ "song_url" : "http://a383.phobos.apple.com/us/r1000/060/Music/17/48/16/mzm.awpsdqqn.aac.p.m4a",
+ "start_time" : "2016-08-07 20:05",
+ "duration_minutes" : 90,
+ "zone" : "Lands End",
+ "zone_color" : "0xFF7E7E"
+ },
+ {
+ "artist" : "Lana Del Ray",
+ "big_image_url" : "74",
+ "small_image_url" : "74s",
+ "song_url" : "http://a1896.phobos.apple.com/us/r1000/066/Music/1c/81/e3/mzm.kysflgjt.aac.p.m4a",
+ "start_time" : "2016-08-07 20:25",
+ "duration_minutes" : 70,
+ "zone" : "Twin Peaks",
+ "zone_color" : "0x6761C2"
+ }
+ ]
+

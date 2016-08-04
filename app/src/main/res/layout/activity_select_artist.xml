@@ -10,61 +10,87 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.ayushimathur.outsideselect.SelectArtist">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/rejectList"
+            android:src="@drawable/rejected_list_ic"
+            />
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/favList"
+            android:src="@drawable/favlist_ic"
+            android:layout_gravity="right"
+            android:layout_marginLeft="250dp"/>
+    </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
+        android:textSize="25sp"
         android:text="Name here"
         android:id="@+id/artistName"
+        android:layout_marginTop="40dp"
         android:layout_centerHorizontal="true"/>
 
 
 
-
     <ImageView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="400px"
+        android:layout_height="400dp"
         android:id="@+id/artistphoto"
         android:src="@drawable/artist_photo"
         />
 
 
 
-<RelativeLayout
-    android:paddingTop="30dp"
-    android:layout_centerHorizontal="true"
-    android:layout_width="200dp"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/artistphoto"
-    android:id="@+id/playgrp">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/playgrp">
 
-    <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="120dp"
-        android:src="@drawable/play_btn"
-        android:id="@+id/btnplay"
-        android:layout_centerInParent="true"
-        android:orientation="vertical"
-        />
-    <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="120dp"
-        android:src="@drawable/pause_btn"
-        android:id="@+id/btnpause"
-        android:layout_centerInParent="true"
-        android:orientation="vertical"
-        />
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rewind_left_btn"
+            android:id="@+id/btnskipLeft"
+            android:layout_alignParentLeft="true"
+            />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="70dp"
-        android:src="@drawable/rewind_left_btn"
-        android:id="@+id/btnskip"
-        android:layout_alignParentRight="true"
-        />
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="20dp"
+            android:src="@drawable/play_btn"
+            android:id="@+id/btnplay"
+            android:layout_centerInParent="true"
+            />
 
-</RelativeLayout>
+        <ImageView
+            android:layout_height="100dp"
+            android:layout_width="20dp"
+            android:src="@drawable/pause_btn"
+            android:id="@+id/btnpause"
+            android:layout_centerInParent="true"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:src="@drawable/rewind_right_btn"
+            android:id="@+id/btnskipRight"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
 
 
     <LinearLayout
@@ -79,34 +105,49 @@
 
     </LinearLayout>
 
-    <LinearLayout
-        android:paddingTop="10dp"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:paddingTop="40dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:layout_below="@+id/playgrp"
-        android:layout_centerInParent="true"
         android:id="@+id/heartlayout">
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btncross"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:src="@drawable/crossblack"
+            android:id="@+id/btncrossAfter"
+            android:layout_alignParentLeft="true"
+            />
 
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="100dp"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
             android:src="@drawable/heart_ic"
-            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
             android:id="@+id/btnheartAfter"
             />
 
 
         <ImageView
-            android:layout_width="60dp"
-            android:layout_height="100dp"
-            android:layout_centerInParent="true"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
             android:src="@drawable/heart_white"
             android:id="@+id/btnheart"
             />
 
 
-</LinearLayout>
+</RelativeLayout>
 
 
 
